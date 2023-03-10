@@ -4,6 +4,6 @@ const ROUTE = {
   LOGIN: "/login",
   LEADERBOARD: "/leaderboard",
   PROFILE: "/profile"
-};
+} as const;
 
 export default ROUTE;
