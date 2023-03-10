@@ -8,11 +8,11 @@
 </template>
 
 <script lang="ts" setup>
-import greetingMessage from '@/constants/greeting';
-import { randomlySelectInArray } from '@/helpers/object';
+import GREETING_MESSAGE from '@/constants/greeting';
+import { randomlySelectInReadonlyArray } from '@/helpers/object';
 import { ref } from 'vue';
 
 const name = ref<string>("");
 
-const greeting = randomlySelectInArray(greetingMessage);
+const greeting = randomlySelectInReadonlyArray(GREETING_MESSAGE);
 </script>
