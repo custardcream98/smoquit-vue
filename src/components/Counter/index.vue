@@ -4,7 +4,7 @@ import { computed } from 'vue';
 import CounterList from './CounterList.vue';
 import CounterItem from './CounterItem.vue';
 import { secondsToString,secondsToDays } from '@/helpers/time';
-import { useCigPerDay } from '@/store/cigPerDay';
+import { useCigPerDay } from '@/stores/cigPerDay';
 import { useCounter } from "@/compositions/useCounter";
 
 const { cigPerDay } = useCigPerDay()
