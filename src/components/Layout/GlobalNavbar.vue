@@ -1,8 +1,6 @@
 <script lang="ts" setup>
-import ROUTE from '@/constants/route';
-import { RouterLink } from 'vue-router';
-
-
+import ROUTE from "@/constants/route";
+import { RouterLink } from "vue-router";
 </script>
 
 <template>

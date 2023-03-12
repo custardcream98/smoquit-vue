@@ -9,12 +9,10 @@
 </template>
 
 <script lang="ts" setup>
-
 type CounterItemProps = {
   emoji: string;
   highlightedText: string;
   restText: string;
 };
-defineProps<CounterItemProps>()
-
+defineProps<CounterItemProps>();
 </script>

@@ -3,7 +3,7 @@ const ROUTE = {
   HISTORY: "/history",
   LOGIN: "/login",
   LEADERBOARD: "/leaderboard",
-  PROFILE: "/profile"
+  PROFILE: "/profile",
 } as const;
 
 export default ROUTE;

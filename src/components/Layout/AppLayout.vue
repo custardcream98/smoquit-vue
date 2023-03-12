@@ -1,5 +1,5 @@
 <template>
-  <main class="m-auto max-w-3xl">
+  <main class="m-auto px-4 pc:max-w-3xl pc:p-0">
     <slot />
   </main>
 </template>

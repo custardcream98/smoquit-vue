@@ -5,19 +5,19 @@
 </template>
 
 <script lang="ts" setup>
-import { withDefaults, defineProps, type ButtonHTMLAttributes } from 'vue';
+import { defineProps, withDefaults, type ButtonHTMLAttributes } from "vue";
 
 interface LoadableButtonProps {
   type: ButtonHTMLAttributes["type"];
   loading: boolean;
   disabled: boolean;
-};
+}
 
 withDefaults(defineProps<LoadableButtonProps>(), {
-  type: 'button',
+  type: "button",
 });
 
 const emits = defineEmits<{
-  (e: 'click', $event:MouseEvent): void;
+  (e: "click", $event: MouseEvent): void;
 }>();
 </script>

@@ -9,7 +9,7 @@ export const useCigPerDayStore = defineStore("cigPerDay", () => {
 
   return {
     cigPerDay,
-    setCigPerDay
+    setCigPerDay,
   };
 });
 
