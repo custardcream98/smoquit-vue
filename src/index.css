@@ -7,3 +7,10 @@
     @apply bg-gray-100;
   }
 }
+
+@layer components {
+  .text-gradient {
+    @apply bg-gradient-to-r from-lime-400 to-blue-600;
+    @apply w-fit bg-clip-text text-transparent;
+  }
+}
